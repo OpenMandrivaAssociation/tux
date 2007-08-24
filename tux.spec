@@ -11,6 +11,7 @@ Patch0:		tux-fix.diff.bz2
 Patch1:		tux-3.2.18-gcc34.patch.bz2
 Patch2:		tux-3.2.18-strncpy-warning.patch
 Patch3: 	tux-3.2.18-compile-fix.patch
+# (tv) unlike fedora, we don't have these in man-pages:
 Patch4: 	tux-3.2.18-man_remove.patch
 # Mandriva patches:
 Patch11:		%{name}-2.2.7-init.patch.bz2
