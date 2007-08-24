@@ -7,9 +7,9 @@ Group:		System/Servers
 URL:		http://people.redhat.com/mingo/TUX-patches/2.1-docs/
 Source:		%{name}-%{version}.tar.bz2
 Patch0:		tux-fix.diff.bz2
-Patch1:		%{name}-2.2.7-init.patch.bz2
-Patch2:		%{name}-3.2.14-Makefile.patch.bz2
-Patch3:		tux-3.2.18-gcc34.patch.bz2
+Patch1:		tux-3.2.18-gcc34.patch.bz2
+Patch11:		%{name}-2.2.7-init.patch.bz2
+Patch12:		%{name}-3.2.14-Makefile.patch.bz2
 Requires(post): rpm-helper
 Requires(preun):rpm-helper
 ExclusiveArch:	%{ix86}
@@ -44,9 +44,9 @@ Development files for Tux server.
 
 %setup -q
 %patch0 -p0
-%patch1 -p0
-%patch2 -p0
-%patch3 -p1 -b .gcc34
+%patch1 -p1 -b .gcc34
+%patch11 -p0
+%patch12 -p0
 
 %build
 %make
