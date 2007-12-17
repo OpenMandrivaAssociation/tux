@@ -25,7 +25,6 @@ BuildRequires:  glib-devel
 BuildRequires:  popt-devel
 BuildRequires:	docbook-utils
 BuildRequires:	openjade docbook-dtd41-sgml
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%release}-buildroot
 
 %description
 TUX is a kernel-based, threaded, extremely high performance HTTP server.
