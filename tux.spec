@@ -21,7 +21,7 @@ Requires(preun):rpm-helper
 ExclusiveArch:	%{ix86}
 Requires:	mailcap
 BuildRequires:	popt 
-BuildRequires:  glib-devel 
+BuildRequires:  glib2-devel
 BuildRequires:  popt-devel
 BuildRequires:	docbook-utils
 BuildRequires:	openjade docbook-dtd41-sgml
