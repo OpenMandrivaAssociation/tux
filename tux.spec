@@ -32,10 +32,6 @@ It is able to efficiently and safely serve both static and dynamic data.
 TUX moves the HTTP protocol stack to the kernel, and can handle requests
 for data with both kernel-space and user-space modules.
 
-See http://www.redhat.com/mailing-lists/ for instructions on subscribing
-to tux-list@redhat.com; users of TUX have the opportunity to share their
-experiences and receive notices of new versions on that list.
-
 %package	devel
 Summary:	Header files for developing apps which will use TUX
 Group:		Development/C
