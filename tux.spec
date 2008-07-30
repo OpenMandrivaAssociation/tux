@@ -1,7 +1,7 @@
 Summary:	User-space component of TUX kernel-based threaded HTTP server
 Name:		tux
 Version:	3.2.18
-Release:	%mkrel 5
+Release:	%mkrel 7
 License:	GPL
 Group:		System/Servers
 URL:		http://people.redhat.com/mingo/TUX-patches/2.1-docs/
