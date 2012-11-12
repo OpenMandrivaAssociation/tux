@@ -1,0 +1,11 @@
+--- tux-3.2.18/tux.c~	2006-06-05 18:30:38.000000000 -0400
++++ tux-3.2.18/tux.c	2006-06-05 18:31:37.000000000 -0400
+@@ -48,7 +48,7 @@ inline int tux(unsigned int action, user
+ #define __NR_tux 222
+ #endif
+ 
+-_syscall2 (int, tux, unsigned int, action, user_req_t *, req)
++#define tux(x, y)	syscall(__NR_tux, x, y)
+ #endif
+ 
+ 

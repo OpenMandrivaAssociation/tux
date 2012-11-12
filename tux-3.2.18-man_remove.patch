@@ -1,0 +1,11 @@
+--- tux-3.2.18/Makefile.man	2004-02-24 13:45:37.000000000 +0100
++++ tux-3.2.18/Makefile	2010-02-22 21:48:21.000000000 +0100
+@@ -102,7 +102,7 @@
+ 	install -m 755 tux tux2w3c tuxstat $(TOPDIR)/usr/sbin/
+ 	install -m 755 tux.init $(RCDIR)/tux
+ 	install -m 644 tux.2 $(MAN2DIR)
+-	#install -m 644 tux.8 $(MAN8DIR)
++	install -m 644 tux.8 $(MAN8DIR)
+ 	install -m 644 tux$(MAJOR).h $(INCDIR)/tux.h
+ 	install -m 644 tuxmodule.h $(INCDIR)
+ 	[ -f $(SYSCONFIG)/tux ] || install -m 644 tux.sysconfig $(SYSCONFIG)/tux
