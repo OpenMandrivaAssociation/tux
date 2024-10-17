@@ -4,7 +4,7 @@ Version:	3.2.18
 Release:	%mkrel 9
 License:	GPL
 Group:		System/Servers
-URL:		http://people.redhat.com/mingo/TUX-patches/2.1-docs/
+URL:		https://people.redhat.com/mingo/TUX-patches/2.1-docs/
 Source:		%{name}-%{version}.tar.bz2
 # fedora patches:
 Patch0:		tux-fix.diff.bz2
