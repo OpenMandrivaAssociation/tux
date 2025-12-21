@@ -20,6 +20,7 @@ Requires(post): rpm-helper
 Requires(preun):rpm-helper
 ExclusiveArch:	%{ix86}
 Requires:	mailcap
+BuildRequires:	make
 BuildRequires:	popt 
 BuildRequires:  glib2-devel
 BuildRequires:  popt-devel
